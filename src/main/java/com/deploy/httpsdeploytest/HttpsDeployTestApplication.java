@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HttpsDeployTestApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(HttpsDeployTestApplication.class, args);
+        System.out.println("App is running");
     }
 
 }
